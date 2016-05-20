@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// Returns value of polynomial at x=v
+
 int evalPolynomial(int *coef, int deg, int v){
 
     int poly=coef[0], i;
