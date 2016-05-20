@@ -11,10 +11,10 @@ float expo(int x, int n){
 
 }
 
-main()
+int main(void)
 {
     printf("%f", expo(2,5));
 
-
+    return 0;
 }
 
