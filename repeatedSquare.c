@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+float expo(int, int);
+
 float expo(int x, int n){
 
     if(n < 0) return expo(1/x,n);
