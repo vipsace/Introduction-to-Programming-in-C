@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+int evalPolynomial(int *coef, int, int);
 // Returns value of polynomial at x=v
 
 int evalPolynomial(int *coef, int deg, int v){
@@ -34,7 +34,6 @@ int main(void)
     printf("%d",result);
 
     return 0;
-
 }
 
 
